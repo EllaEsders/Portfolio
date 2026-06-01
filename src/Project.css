@@ -1,0 +1,32 @@
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 20px;
+}
+.filter-btn {
+    margin: 6px;
+    padding: 8px 14px;
+
+    border: 1px solid #334155;
+    border-radius: 999px;   /* pill shape */
+
+    background: transparent;
+    color: #1E293B;
+
+    font-size: 14px;
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+
+.filter-btn:hover {
+    border-color: #60A5FA;
+    color: #60A5FA;
+    transform: translateY(-1px);
+}
+
+.filter-btn.active {
+    background: #60A5FA;
+    border-color: #60A5FA;
+    color: white;
+}
