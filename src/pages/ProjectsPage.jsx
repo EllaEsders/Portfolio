@@ -1,6 +1,6 @@
 import { projects } from "../projects.js";
-import ProjectCard from "../ProjectCard.jsx";
-import "../Project.css";
+import ProjectCard from "../components/ProjectCard.jsx";
+import "../styles/Project.css";
 import { useState } from "react";
 export default function ProjectsPage() {
   const [selectedFilters, setSelectedFilters] = useState([]);
